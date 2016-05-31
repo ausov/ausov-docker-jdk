@@ -12,6 +12,5 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886 \
   && apt-get install -y nodejs npm \
   && apt-get install -y php7.0-sqlite php7.0-curl php7.0-gd php7.0-gmp php7.0-mcrypt php7.0-intl php7.0-dev php7.0-xsl php7.0-xml php7.0-bcmath php-pear \
   && apt-get install -y python libpcre3-dev \
-  && apt-get install -y ruby2.2 ruby2.2-dev \
   && apt-get install -y libsqlite3-dev libxext6 xfonts-75dpi fontconfig libxrender1 xfonts-base \
   && apt-get autoclean && apt-get --purge -y autoremove && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

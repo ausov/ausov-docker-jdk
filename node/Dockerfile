@@ -1,8 +1,3 @@
-#
-# CI builder image template with development tools:
-# PHP 7, Oracle JDK 8, Node.js, Python, Ruby, etc.
-#
-
 FROM ubuntu:latest
 
 ENV DEBIAN_FRONTEND noninteractive
